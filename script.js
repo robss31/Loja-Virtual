@@ -69,53 +69,59 @@ const tela = [
 const blusas = [
     {
         id: 9,
-        nome: 'Blusa1',
+        nome: 'Blusa Feminina',
+        modelo: 'Moletom',
         img1: './image/blusas/blusa1.jpg',
+        preco:' R$30,00',
         qtde: 0,
 
     },
 
     {
         id: 10,
-        nome: 'Blusa2',
+        nome: 'Blusa Feminina',
+        modelo: 'Couro Sintetico',
         img1: './image/blusas/blusa2.jpg',
+        preco:' R$30,00',
         qtde: 0
     },
 
     {
         id: 11,
-        nome: 'Blusa3',
+        nome: 'Blusa Feminina',
+        modelo: 'Quadriculada',
         img1: './image/blusas/blusa3.jpg',
+        preco:' R$30,00',
         qtde: 0
     },
 
     {
         id: 12,
-        nome: 'Blusa4',
+        nome: 'Blusa Feminina',
+        modelo: 'Moletom',
         img1: './image/blusas/blusa4.jpg',
+        preco:' R$30,00',
         qtde: 0
     },
 
     {
         id: 13,
-        nome: 'Blusa5',
+        nome: 'Blusa Feminina',
+        modelo: 'Jaleco',
         img1: './image/blusas/blusa5.jpg',
+        preco:' R$30,00',
         qtde: 0
     },
 
     {
         id: 14,
-        nome: 'Blusa6',
+        nome: 'Blusa Feminina',
+        modelo: 'byby look',
         img1: './image/blusas/blusa6.jpg',
+        preco:' R$30,00',
         qtde: 0
     },
 
-    {
-        id: 15,
-        nome: 'Blusa7',
-        img1: './image/blusas/blusa1.jpg',
-        qtde: 0
-    }
 
 
 ]
@@ -124,44 +130,56 @@ const blusas = [
 const calcas = [
     {
         id: 18,
-        nome: 'Calça1',
+        nome: 'Calça Feminina',
+        modelo: 'Social',
         img1: './image/calças/calça1.jpg',
+        preco:' R$50,00',
         qtde: 0,
 
     },
 
     {
         id: 19,
-        nome: 'Calça2',
+        nome: 'Calça Masculina',
+        modelo: 'Quadriculada',
         img1: './image/calças/calça2.jpg',
+        preco:' R$50,00',
         qtde: 0
     },
 
     {
         id: 20,
-        nome: 'Calça3',
+        nome: 'Calça Feminina',
+        modelo: 'Social',
         img1: './image/calças/calça3.jpg',
+        preco:' R$50,00',
         qtde: 0
     },
 
     {
         id: 21,
-        nome: 'Calça4',
+        nome: 'Calça Masculina',
+        modelo: 'Quadriculada',
         img1: './image/calças/calça4.jpg',
+        preco:' R$50,00',
         qtde: 0
     },
 
     {
         id: 22,
-        nome: 'Calça5',
+        nome: 'Calça Masculina',
+        modelo: 'Social',
         img1: './image/calças/calça5.jpg',
+        preco:' R$50,00',
         qtde: 0
     },
 
     {
         id: 23,
-        nome: 'Calça6',
+        nome: 'Calça Feminina',
+        modelo: 'Moletom',
         img1: './image/calças/calça6.jpg',
+        preco:' R$50,00',
         qtde: 0
     }
 ]
@@ -169,44 +187,56 @@ const calcas = [
 const bermudas = [
     {
         id: 24,
-        nome: 'Bermuda1',
+        nome: 'Bermuda Masculina',
+        modelo: "Esportiva",
         img1: './image/bermudas/bermuda1.jpg',
+        preco:' R$40,00',
         qtde: 0,
 
     },
 
     {
         id: 25,
-        nome: 'Bermuda2',
+        nome: 'Bermuda Feminina',
+        modelo: "Esportiva",
         img1: './image/bermudas/bermuda2.jpg',
+        preco:' R$40,00',
         qtde: 0
     },
 
     {
         id: 26,
-        nome: 'Bermuda3',
+        nome: 'Bermuda Feminina',
+        modelo: "Moletom",
         img1: './image/bermudas/bermuda3.jpg',
+        preco:' R$40,00',
         qtde: 0
     },
 
     {
         id: 27,
-        nome: 'Bermuda4',
+        nome: 'Bermuda Feminina',
+        modelo: "Esportiva",
         img1: './image/bermudas/bermuda4.jpg',
+        preco:' R$40,00',
         qtde: 0
     },
 
     {
         id: 28,
-        nome: 'Bermuda5',
+        nome: 'Bermuda Feminina',
+        modelo: "Esportiva",
         img1: './image/bermudas/bermuda5.jpg',
+        preco:' R$40,00',
         qtde: 0
     },
 
     {
         id: 29,
-        nome: 'Bermuda6',
+        nome: 'Bermuda Masculina',
+        modelo: "Esportiva",
         img1: './image/bermudas/bermuda6.jpg',
+        preco:' R$40,00',
         qtde: 0
     }
 ]
@@ -214,44 +244,56 @@ const bermudas = [
 const toalhas = [
     {
         id: 30,
-        nome: 'Toalha1',
-        img1: './image/toalhas/toalha1.jpg',
+        nome: 'Toalha de Mesa',
+        modelo: "Algodão ",
+        img2: './image/toalhas/toalha1.jpg',
+        preco:' R$60,00',
         qtde: 0,
 
     },
 
     {
         id: 31,
-        nome: 'Toalha2',
-        img1: './image/toalhas/toalha2.jpg',
+        nome: 'Toalha de Mesa',
+        modelo: "Algodão ",
+        img2: './image/toalhas/toalha2.jpg',
+        preco:' R$60,00',
         qtde: 0
     },
 
     {
         id: 32,
-        nome: 'Toalha3',
-        img1: './image/toalhas/toalha3.jpg',
+        nome: 'Toalha de Mesa',
+        modelo: "Algodão ",
+        img2: './image/toalhas/toalha3.jpg',
+        preco:' R$60,00',
         qtde: 0
     },
 
     {
         id: 33,
-        nome: 'Toalha4',
-        img1: './image/toalhas/toalha4.jpg',
+        nome: 'Toalha de Mesa',
+        modelo: "Algodão ",
+        img2: './image/toalhas/toalha4.jpg',
+        preco:' R$60,00',
         qtde: 0
     },
 
     {
         id: 34,
-        nome: 'Toalha5',
-        img1: './image/toalhas/toalha5.jpg',
+        nome: 'Toalha de Mesa',
+        modelo: "Algodão ",
+        img2: './image/toalhas/toalha5.jpg',
+        preco:' R$60,00',
         qtde: 0
     },
 
     {
         id: 35,
-        nome: 'Toalha6',
-        img1: './image/toalhas/toalha6.jpg',
+        nome: 'Toalha de Mesa',
+        modelo: "Algodão ",
+        img2: './image/toalhas/toalha6.jpg',
+        preco:' R$60,00',
         qtde: 0
     }
 
@@ -266,7 +308,6 @@ inicializarLoja = () => {
 
             <img id="imgum" src=" `+ val.imgum + ` "/>
             <p id="nome">`+ val.nome + `</p>
-
             <a id="f-tela" href="#" i= " `+ val.id + `" >   </a>
 
         </div>
@@ -282,13 +323,13 @@ inicializarLoja = () => {
         <div class="blusas"  >
 
             <img id="img1" src=" `+ val.img1 + ` "/>
-            <p>`+ val.nome + `</p>
-
-            <a href="#" i= " `+ val.id + `" >   </a>
+            <p class="nome">[cod.`+ val.id +`]`+ val.nome + `</p>
+            <p class="modelo">`+val.modelo+`</p>
+            <p class="preco">`+ val.preco +`</p>
+            <a class="add-car" href="#"  > Add Carrinho!</a>
 
         </div>
         `;
-
     })
 
     var containerCalcas = document.getElementById('calcas');
@@ -298,9 +339,10 @@ inicializarLoja = () => {
     <div class="calcas">
 
             <img id="img1" src=" `+ val.img1 + ` "/>
-            <p>`+ val.nome + `</p>
-
-            <a href="#" i= " `+ val.id + `" > Add Carrinho!</a>
+            <p class="nome">[cod.`+ val.id +`]`+ val.nome +`</p>
+            <p class="modelo">`+val.modelo+`</p>
+            <p class="preco">`+ val.preco +`</p>
+            <a class="add-car" href="#"  > Add Carrinho!</a>
 
         </div>
         `;
@@ -314,10 +356,10 @@ inicializarLoja = () => {
     <div class="bermudas">
 
             <img id="img1" src=" `+ val.img1 + ` "/>
-
-            <p>`+ val.nome + `</p>
-
-            <a href="#" i= " `+ val.id + `" >Add Carrinho!</a>
+            <p class="nome">[cod.`+ val.id +`]`+ val.nome + `</p>
+            <p class="modelo">`+val.modelo+`</p>
+            <p class="preco">`+ val.preco +`</p>
+            <a class="add-car" href="#"  > Add Carrinho!</a>
 
         </div>
         `;
@@ -330,11 +372,11 @@ inicializarLoja = () => {
 
     <div class="toalhas">
 
-            <img id="img1" src=" `+ val.img1 + ` "/>
-           
-            <p>`+ val.nome + `</p>      
-         
-            <a href="#" i= " `+ val.id + `" >Add Carrinho!</a>
+            <img id="img2" src=" `+ val.img2 + ` "/>
+            <p class="nome">[cod.`+ val.id +`]`+ val.nome + `</p>
+            <p class="modelo">`+val.modelo+`</p>
+            <p class="preco">`+ val.preco +`</p>
+            <a class="add-car" href="#"  > Add Carrinho!</a>
 
         </div>
         `;
