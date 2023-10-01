@@ -9,11 +9,11 @@
     position: sticky;
     margin-top: -35px;
     margin-bottom: 1px;
-    top: 0;
     /* Serve para fixar o header*/
+    top: 0;
     z-index: 99;
     border-bottom: 20px solid transparent;
-    background: linear-gradient(to right, rgba(31, 32, 31, 0.6) 1%, rgb(247, 0, 197)100%, rgb(11, 230, 230, 0.2) 70%), border-box;
+    background: linear-gradient(to right, rgba(31, 32, 31, 0.6) 10%, rgb(247, 0, 197)100%, rgb(11, 230, 230, 0.2) 100%), border-box;
 
 }
 
@@ -30,10 +30,11 @@
     margin-right: auto;
 }
 
-.logo {
+#logo {
     color: rgb(255, 31, 7);
     margin-left: 544px;
     animation: logo 2s linear infinite;
+    
 
 }
 
@@ -89,7 +90,7 @@ nav {
 
 }
 
-nav ul li {
+nav ul a {
     margin-right: 2.5rem;
     cursor: pointer;
     color: rgb(167, 241, 17);
@@ -97,7 +98,7 @@ nav ul li {
 
 }
 
-nav ul li:hover {
+nav ul a:hover {
     font-size: larger;
     transform: translatey(-5px);
     transition: all 0.2s;
@@ -111,7 +112,6 @@ nav ul li:hover {
 
 }
 
-
 h1 {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -123,6 +123,7 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-left: -600px;
+    margin-top: -5px;
 }
 
 #c {
@@ -131,7 +132,7 @@ h1 {
 
 h4 {
     color: rgb(167, 241, 17);
-    margin-top: -50px;
+    margin-top: -54px;
     margin-bottom: 10px;
     margin-left: 580px;
     font-size: 14PX;
@@ -144,23 +145,36 @@ h4 {
     margin-top: -220px;
     margin-bottom: -5px;
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-top: 1px solid transparent;
     border-bottom: 20px solid transparent;
     display: inline-flex;
-    background: linear-gradient(to left, rgb(19, 247, 140, 0.4) 1%, rgb(247, 0, 197)100%, rgb(11, 230, 230, 0.3) 1%), border-box;
+    background: linear-gradient(to left, rgb(19, 247, 140, 0.4) 1%, rgb(247, 0, 197)50%, rgba(11, 11, 11, 0.4) 5%), border-box;
 
 }
 
 .loja {
 
     max-width: 100%;
-    background-color: rgb(10, 10, 10);
+    /* background-color: rgb(10, 10, 10);*/
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./image/sophia.jpeg");
+    background-position: center;
+    background-size: cover;
     padding: 0 2%;
     display: flex;
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
+}
+
+.prod {
+    max-width: 100%;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+
 }
 
 h2 {
@@ -223,7 +237,7 @@ h2 {
     font-size: 18px;
     text-align: center;
     margin-top: 30px;
-    
+
 }
 
 #toalhas {
@@ -236,13 +250,6 @@ h2 {
 
 }
 
-a {
-    justify-content: space-between;
-    font-size: 13px;
-    text-decoration: none;
-    margin-top: 430px;
-    width: 140px;
-}
 
 p {
     margin-bottom: 1px;
@@ -271,21 +278,28 @@ p {
 
 }
 
-.preco{
-    color: rgb(241, 16, 16);
+.preco {
+    color: rgb(255, 16, 255);
 
 }
 
-.nome{
+.nome {
     font-size: 14px;
-    color:chartreuse;
+    color: chartreuse;
 }
-.modelo{
+
+.modelo {
     font-size: 14px;
-    color:chartreuse;
+    color: chartreuse;
 }
-.add-car{
-    color:rgb(17, 241, 189);
+
+.add-car {
+    width: 350px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 14, 14);
+    border-radius: 3px;
+    padding: 2px;
+    text-decoration: none;
 }
 
 #img1 {
@@ -305,8 +319,16 @@ p {
     width: 160px;
     height: 270px;
     border-radius: 50%;
-    margin-left: -10px;
+    margin-left: 28px;
 }
+
+#img2:hover {
+    width: 280px;
+    height: 500px;
+    border-radius: 10px;
+    border: white 2px solid;
+}
+
 
 #foto-sobre {
     width: 320px;
@@ -315,6 +337,7 @@ p {
     margin-bottom: 110px;
     margin-right: 40px;
 }
+
 
 .sobre {
     max-width: 100%;
@@ -344,43 +367,160 @@ p {
 
 .contato {
     display: flex;
+    flex-direction: column;
     max-width: 100%;
-    height: 40px;
+    height: 350px;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(138, 43, 226, 0.3);
+    background: linear-gradient(to right, rgba(9, 9, 9, 0.8) , rgba(31, 32, 31, 0.7) 2%, rgb(247, 0, 197, 0.6)34%, rgb(21, 21, 21), rgba(255,0,0, 0.6) , rgba(0,0,0, 0.4)), border-box;
+    /*background-color: rgb(214, 69, 163);*/
     padding: 3px;
-    
+
 }
 
+#titulo-cont{
+    margin-top: 60px;
+}
+
+.inf{
+    color: #00ffff;
+    margin-left: 40px ;
+}
+
+.inf1{
+    display: flex;
+    margin-top: 10px;
+    color: aqua;
+}
+.inf2{
+    margin-left: 50px;
+    color: aqua;
+    margin-bottom: -30px;
+   
+    
+}
 #zap {
     width: 20px;
     height: 20px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #fone {
-    width: 15px;
+    width: 25px;
     height: 15px;
-    margin-left: -20px;
+    margin-left: 5px;
+    margin-right:  5px;
+   
 
 }
 
 .num-cont {
     display: flex;
+    flex-direction: column;
     width: 450px;
-    margin-left: -20px ;
+    margin-left: -20px;
     align-items: center;
 
 }
 
-#end{
-    margin-left: -130px;
+#loc {
+    width: 35px;
+    height: 30px;
+    background-color: rgba(255, 0, 183, 0.4);
+    margin-bottom: -40px;
+   
+   
 }
 
-#loc{
-    width: 18px;
-    height: 19px;
-    margin-left: 220px;
+@media (min-width: 960px) {
+    .menu-hamb-button {
+        display: none;
+    }
+}
 
+@media (max-width: 960px) {
+    nav {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        left: 0px;
+        right: 0;
+        background: linear-gradient(to right, rgba(31, 32, 31, 0.6) 1%, rgb(247, 0, 197)100%, rgb(11, 230, 230, 0.2) 70%), border-box;
+        padding: 32px 0;
+        border-top: outset;
+
+    }
+
+    nav li a {
+        line-height: 40px;
+        width: 100%;
+        margin-left: -25px;
+    }
+
+    .logos {
+        align-items: flex-end;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    h4 {
+        margin-left: 560px;
+    }
+
+    .nav-icones-container {
+        width: 100%;
+        justify-content: space-around;
+        margin-right: 220px;
+    }
+
+    #tela,
+    #titulo-tl {
+        display: none;
+    }
+
+    #img2 {
+        width: 160px;
+        height: 240px;
+        border-radius: 50%;
+        margin-left: -10px;
+        gap: 0;
+    }
+
+    .prod {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .prod-side-left {
+        height: 50%;
+        flex-basis: 50%;
+        margin-left: 20px;
+    }
+
+
+
+    .sobre {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #sobre {
+        margin-left: -40px;
+
+    }
+
+    .contato {
+        display: flex;
+        width: 100%;
+    }
+
+    .num-cont {
+        justify-content: center;
+    }
 }

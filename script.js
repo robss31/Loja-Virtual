@@ -72,7 +72,7 @@ const blusas = [
         nome: 'Blusa Feminina',
         modelo: 'Moletom',
         img1: './image/blusas/blusa1.jpg',
-        preco:' R$30,00',
+        preco: ' R$30,00',
         qtde: 0,
 
     },
@@ -82,7 +82,7 @@ const blusas = [
         nome: 'Blusa Feminina',
         modelo: 'Couro Sintetico',
         img1: './image/blusas/blusa2.jpg',
-        preco:' R$30,00',
+        preco: ' R$30,00',
         qtde: 0
     },
 
@@ -91,7 +91,7 @@ const blusas = [
         nome: 'Blusa Feminina',
         modelo: 'Quadriculada',
         img1: './image/blusas/blusa3.jpg',
-        preco:' R$30,00',
+        preco: ' R$30,00',
         qtde: 0
     },
 
@@ -100,7 +100,7 @@ const blusas = [
         nome: 'Blusa Feminina',
         modelo: 'Moletom',
         img1: './image/blusas/blusa4.jpg',
-        preco:' R$30,00',
+        preco: ' R$30,00',
         qtde: 0
     },
 
@@ -109,7 +109,7 @@ const blusas = [
         nome: 'Blusa Feminina',
         modelo: 'Jaleco',
         img1: './image/blusas/blusa5.jpg',
-        preco:' R$30,00',
+        preco: ' R$30,00',
         qtde: 0
     },
 
@@ -118,7 +118,7 @@ const blusas = [
         nome: 'Blusa Feminina',
         modelo: 'byby look',
         img1: './image/blusas/blusa6.jpg',
-        preco:' R$30,00',
+        preco: ' R$30,00',
         qtde: 0
     },
 
@@ -133,7 +133,7 @@ const calcas = [
         nome: 'Calça Feminina',
         modelo: 'Social',
         img1: './image/calças/calça1.jpg',
-        preco:' R$50,00',
+        preco: ' R$50,00',
         qtde: 0,
 
     },
@@ -143,7 +143,7 @@ const calcas = [
         nome: 'Calça Masculina',
         modelo: 'Quadriculada',
         img1: './image/calças/calça2.jpg',
-        preco:' R$50,00',
+        preco: ' R$50,00',
         qtde: 0
     },
 
@@ -152,7 +152,7 @@ const calcas = [
         nome: 'Calça Feminina',
         modelo: 'Social',
         img1: './image/calças/calça3.jpg',
-        preco:' R$50,00',
+        preco: ' R$50,00',
         qtde: 0
     },
 
@@ -161,7 +161,7 @@ const calcas = [
         nome: 'Calça Masculina',
         modelo: 'Quadriculada',
         img1: './image/calças/calça4.jpg',
-        preco:' R$50,00',
+        preco: ' R$50,00',
         qtde: 0
     },
 
@@ -170,7 +170,7 @@ const calcas = [
         nome: 'Calça Masculina',
         modelo: 'Social',
         img1: './image/calças/calça5.jpg',
-        preco:' R$50,00',
+        preco: ' R$50,00',
         qtde: 0
     },
 
@@ -179,7 +179,7 @@ const calcas = [
         nome: 'Calça Feminina',
         modelo: 'Moletom',
         img1: './image/calças/calça6.jpg',
-        preco:' R$50,00',
+        preco: ' R$50,00',
         qtde: 0
     }
 ]
@@ -190,7 +190,7 @@ const bermudas = [
         nome: 'Bermuda Masculina',
         modelo: "Esportiva",
         img1: './image/bermudas/bermuda1.jpg',
-        preco:' R$40,00',
+        preco: ' R$40,00',
         qtde: 0,
 
     },
@@ -200,7 +200,7 @@ const bermudas = [
         nome: 'Bermuda Feminina',
         modelo: "Esportiva",
         img1: './image/bermudas/bermuda2.jpg',
-        preco:' R$40,00',
+        preco: ' R$40,00',
         qtde: 0
     },
 
@@ -209,7 +209,7 @@ const bermudas = [
         nome: 'Bermuda Feminina',
         modelo: "Moletom",
         img1: './image/bermudas/bermuda3.jpg',
-        preco:' R$40,00',
+        preco: ' R$40,00',
         qtde: 0
     },
 
@@ -218,7 +218,7 @@ const bermudas = [
         nome: 'Bermuda Feminina',
         modelo: "Esportiva",
         img1: './image/bermudas/bermuda4.jpg',
-        preco:' R$40,00',
+        preco: ' R$40,00',
         qtde: 0
     },
 
@@ -227,7 +227,7 @@ const bermudas = [
         nome: 'Bermuda Feminina',
         modelo: "Esportiva",
         img1: './image/bermudas/bermuda5.jpg',
-        preco:' R$40,00',
+        preco: ' R$40,00',
         qtde: 0
     },
 
@@ -236,7 +236,7 @@ const bermudas = [
         nome: 'Bermuda Masculina',
         modelo: "Esportiva",
         img1: './image/bermudas/bermuda6.jpg',
-        preco:' R$40,00',
+        preco: ' R$40,00',
         qtde: 0
     }
 ]
@@ -247,7 +247,7 @@ const toalhas = [
         nome: 'Toalha de Mesa',
         modelo: "Algodão ",
         img2: './image/toalhas/toalha1.jpg',
-        preco:' R$60,00',
+        preco: ' R$60,00',
         qtde: 0,
 
     },
@@ -257,7 +257,7 @@ const toalhas = [
         nome: 'Toalha de Mesa',
         modelo: "Algodão ",
         img2: './image/toalhas/toalha2.jpg',
-        preco:' R$60,00',
+        preco: ' R$60,00',
         qtde: 0
     },
 
@@ -266,7 +266,7 @@ const toalhas = [
         nome: 'Toalha de Mesa',
         modelo: "Algodão ",
         img2: './image/toalhas/toalha3.jpg',
-        preco:' R$60,00',
+        preco: ' R$60,00',
         qtde: 0
     },
 
@@ -275,7 +275,7 @@ const toalhas = [
         nome: 'Toalha de Mesa',
         modelo: "Algodão ",
         img2: './image/toalhas/toalha4.jpg',
-        preco:' R$60,00',
+        preco: ' R$60,00',
         qtde: 0
     },
 
@@ -284,7 +284,7 @@ const toalhas = [
         nome: 'Toalha de Mesa',
         modelo: "Algodão ",
         img2: './image/toalhas/toalha5.jpg',
-        preco:' R$60,00',
+        preco: ' R$60,00',
         qtde: 0
     },
 
@@ -293,7 +293,7 @@ const toalhas = [
         nome: 'Toalha de Mesa',
         modelo: "Algodão ",
         img2: './image/toalhas/toalha6.jpg',
-        preco:' R$60,00',
+        preco: ' R$60,00',
         qtde: 0
     }
 
@@ -323,9 +323,9 @@ inicializarLoja = () => {
         <div class="blusas"  >
 
             <img id="img1" src=" `+ val.img1 + ` "/>
-            <p class="nome">[cod.`+ val.id +`]`+ val.nome + `</p>
-            <p class="modelo">`+val.modelo+`</p>
-            <p class="preco">`+ val.preco +`</p>
+            <p class="nome">[cod.`+ val.id + `]` + val.nome + `</p>
+            <p class="modelo">`+ val.modelo + `</p>
+            <p class="preco">`+ val.preco + `</p>
             <a class="add-car" href="#"  > Add Carrinho!</a>
 
         </div>
@@ -339,9 +339,9 @@ inicializarLoja = () => {
     <div class="calcas">
 
             <img id="img1" src=" `+ val.img1 + ` "/>
-            <p class="nome">[cod.`+ val.id +`]`+ val.nome +`</p>
-            <p class="modelo">`+val.modelo+`</p>
-            <p class="preco">`+ val.preco +`</p>
+            <p class="nome">[cod.`+ val.id + `]` + val.nome + `</p>
+            <p class="modelo">`+ val.modelo + `</p>
+            <p class="preco">`+ val.preco + `</p>
             <a class="add-car" href="#"  > Add Carrinho!</a>
 
         </div>
@@ -356,9 +356,9 @@ inicializarLoja = () => {
     <div class="bermudas">
 
             <img id="img1" src=" `+ val.img1 + ` "/>
-            <p class="nome">[cod.`+ val.id +`]`+ val.nome + `</p>
-            <p class="modelo">`+val.modelo+`</p>
-            <p class="preco">`+ val.preco +`</p>
+            <p class="nome">[cod.`+ val.id + `]` + val.nome + `</p>
+            <p class="modelo">`+ val.modelo + `</p>
+            <p class="preco">`+ val.preco + `</p>
             <a class="add-car" href="#"  > Add Carrinho!</a>
 
         </div>
@@ -373,12 +373,12 @@ inicializarLoja = () => {
     <div class="toalhas">
 
             <img id="img2" src=" `+ val.img2 + ` "/>
-            <p class="nome">[cod.`+ val.id +`]`+ val.nome + `</p>
-            <p class="modelo">`+val.modelo+`</p>
-            <p class="preco">`+ val.preco +`</p>
-            <a class="add-car" href="#"  > Add Carrinho!</a>
+            <p class="nome">[cod.`+ val.id + `]` + val.nome + `</p>
+            <p class="modelo">`+ val.modelo + `</p>
+            <p class="preco">`+ val.preco + `</p>
+            <a class="add-car" href="#"  > Add Carrinho</a>
 
-        </div>
+            </div>
         `;
 
     })
@@ -401,7 +401,6 @@ inicializarLoja = () => {
     }
 
     setInterval(carousel, 2500);
-
 
 
 }

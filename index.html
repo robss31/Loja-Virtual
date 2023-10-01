@@ -9,28 +9,30 @@
 </head>
 
 <body>
-    <img src="" alt="">
-
 
     <div class="navbar ">
         <div class="header-Content">
             <div class="logos">
-                <h1 class="logo"><span id="c">L</span>UCY</h1>
+                <h1 id="logo"><span id="c">L</span>UCY</h1>
                 <h4> <span>C</span> O <span>N</span> F <span>E</span> C <span>Ç</span> Õ <span>E</span> S</h4>
             </div>
             <nav>
                 <ul>
-                    <li id="li-home">Home</li>
-                    <li id="li-produtos">Produtos</li>
-                    <li id="li-sobre">Sobre</li>
-                    <li id="li-contato">Contato</li>
-                    <li id="li-ontas">Conta</li>
+                    <li> <a href="#foto-topo">Home</a></li>
+                    <li><a href="#blusas">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#">Conta</a></li>
                 </ul>
 
                 <div class="nav-icones-container">
-                    <img class="icone" src="./image/logo/carro.png" alt="">
-                    <img class="icone" src="./image/logo/menu.png" alt="">
+                    <div class="menu-car">
+                        <img class="icone" src="./image/logo/carro.png" alt="">
+                    </div>
 
+                    <div class="menu-hamb-button">
+                        <img class="icone" src="./image/logo/menu.png" alt="">
+                    </div>
                 </div>
             </nav>
         </div>
@@ -40,33 +42,34 @@
     <img id="foto-topo" src="./image/foto-topo.jpg" alt="">
 
 
-
     <section class="loja">
 
-
-        <h2 id="titulo-tl">A Nova Coleção Verão </h2>
+        <h2 id="titulo-tl">A Nova Coleção Do Verão </h2>
         <div id="tela"></div>
 
-        <h2>Blusas</h2>
-        <div id="blusas"></div>
+        <div class="Prod" >
+            <h2>Blusas</h2>
+            <div id="blusas"></div>
 
-        <h2>Calças</h2>
-        <div id="calcas"></div>
+            <h2>Calças</h2>
+            <div id="calcas"></div>
 
-        <h2>Bermudas</h2>
-        <div id="bermudas"></div>
+            <h2>Bermudas</h2>
+            <div id="bermudas"></div>
 
-        <h2>Toalhas de Mesa</h2>
-        <div id="toalhas"></div>
+            <h2>Toalhas de Mesa</h2>
+            <div id="toalhas"></div>
 
-        <div id="carrinho"></div>
 
+            <div id="carrinho"></div>
+
+        </div>
     </section>
 
 
     <section class="sobre">
 
-        <h2 id="sobre">Sobre:</h2>
+        <h2 id="sobre">Sobre Nós:</h2>
 
         <div id="texto">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi natus laudantium libero pariatur
@@ -83,17 +86,21 @@
     </section>
     <footer>
         <div class="contato">
+
+            <h2 id="titulo-cont"> <span> Lucy Confecções </span></h2>
+
             <div class="num-cont">
+                
+                <p class=" inf"> <span>Fale conosco: </span> <span><img id="fone" src="./image/telefone.png" alt=""></span>(081)98888-8888 </p>
 
-                <img id="fone" src="./image/telefone.png" alt="">
-                <h3> 081 98888.8888 </h3>
+                
+                <p class=" inf1"> <span>Entre em contato: </span> <span> <img id="zap" src="./image/whatsapp.png  " alt="#">  </span> 081 98888.8888</p>
 
-                <img id="zap" src="./image/whatsapp.png" alt="">
-                <h3> 081 98888.8888</h3>
+                <p class=" inf2"> <span>Envie um Email:  </span> lucy.confec@gmail.com.br </p>
             </div>
 
             <img id="loc" src="./image/localizacao.png" alt="">
-            <h3 id="end"> Rua Enfermeiro Antonio Vicente Fermino, 730 - Carpina- Pernambuco </h3>
+            <p class="inf"> Rua Enfermeiro Antonio Vicente Fermino - Carpina- Pernambuco </p>
         </div>
     </footer>
 
