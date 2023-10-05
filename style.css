@@ -8,7 +8,7 @@
 .navbar {
     position: sticky;
     margin-top: -35px;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
     /* Serve para fixar o header*/
     top: 0;
     z-index: 99;
@@ -31,10 +31,10 @@
 }
 
 #logo {
-    color: rgb(255, 31, 7);
+
     margin-left: 544px;
     animation: logo 2s linear infinite;
-    
+
 
 }
 
@@ -124,18 +124,20 @@ h1 {
     flex-direction: column;
     margin-left: -600px;
     margin-top: -5px;
+    margin-bottom: 30px;
 }
 
 #c {
     font-size: 100px;
 }
 
+
 h4 {
     color: rgb(167, 241, 17);
-    margin-top: -54px;
-    margin-bottom: 10px;
-    margin-left: 580px;
-    font-size: 14PX;
+    margin-top: -134px;
+    margin-bottom: 20px;
+    margin-left: 625px;
+    font-size: 16PX;
 }
 
 
@@ -372,33 +374,34 @@ p {
     height: 350px;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(to right, rgba(9, 9, 9, 0.8) , rgba(31, 32, 31, 0.7) 2%, rgb(247, 0, 197, 0.6)34%, rgb(21, 21, 21), rgba(255,0,0, 0.6) , rgba(0,0,0, 0.4)), border-box;
+    background: linear-gradient(to right, rgba(9, 9, 9, 0.8), rgba(31, 32, 31, 0.7) 2%, rgb(247, 0, 197, 0.6)34%, rgb(21, 21, 21), rgba(255, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), border-box;
     /*background-color: rgb(214, 69, 163);*/
     padding: 3px;
 
 }
 
-#titulo-cont{
+#titulo-cont {
     margin-top: 60px;
 }
 
-.inf{
+.inf {
     color: #00ffff;
-    margin-left: 40px ;
+    margin-left: 40px;
 }
 
-.inf1{
+.inf1 {
     display: flex;
     margin-top: 10px;
     color: aqua;
 }
-.inf2{
+
+.inf2 {
     margin-left: 50px;
     color: aqua;
     margin-bottom: -30px;
-   
-    
+
 }
+
 #zap {
     width: 20px;
     height: 20px;
@@ -410,8 +413,8 @@ p {
     width: 25px;
     height: 15px;
     margin-left: 5px;
-    margin-right:  5px;
-   
+    margin-right: 5px;
+
 
 }
 
@@ -429,98 +432,13 @@ p {
     height: 30px;
     background-color: rgba(255, 0, 183, 0.4);
     margin-bottom: -40px;
-   
-   
+
+
 }
 
-@media (min-width: 960px) {
+@media (min-width: 450px) {
     .menu-hamb-button {
         display: none;
     }
-}
 
-@media (max-width: 960px) {
-    nav {
-        position: absolute;
-        width: 100%;
-        top: 100%;
-        left: 0px;
-        right: 0;
-        background: linear-gradient(to right, rgba(31, 32, 31, 0.6) 1%, rgb(247, 0, 197)100%, rgb(11, 230, 230, 0.2) 70%), border-box;
-        padding: 32px 0;
-        border-top: outset;
-
-    }
-
-    nav li a {
-        line-height: 40px;
-        width: 100%;
-        margin-left: -25px;
-    }
-
-    .logos {
-        align-items: flex-end;
-        margin-top: 5px;
-        width: 100%;
-    }
-
-    h4 {
-        margin-left: 560px;
-    }
-
-    .nav-icones-container {
-        width: 100%;
-        justify-content: space-around;
-        margin-right: 220px;
-    }
-
-    #tela,
-    #titulo-tl {
-        display: none;
-    }
-
-    #img2 {
-        width: 160px;
-        height: 240px;
-        border-radius: 50%;
-        margin-left: -10px;
-        gap: 0;
-    }
-
-    .prod {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .prod-side-left {
-        height: 50%;
-        flex-basis: 50%;
-        margin-left: 20px;
-    }
-
-
-
-    .sobre {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    #sobre {
-        margin-left: -40px;
-
-    }
-
-    .contato {
-        display: flex;
-        width: 100%;
-    }
-
-    .num-cont {
-        justify-content: center;
-    }
 }
