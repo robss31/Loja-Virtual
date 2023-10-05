@@ -365,7 +365,7 @@ p {
     margin-top: 80px;
 }
 
-.contato {
+.contatos {
     display: flex;
     flex-direction: column;
     max-width: 100%;
@@ -378,7 +378,7 @@ p {
 
 }
 
-#titulo-cont {
+#contato {
     margin-top: 60px;
 }
 
